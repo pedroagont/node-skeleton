@@ -1,0 +1,21 @@
+section.new-note {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section.notes-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+article.note {
+  display: flex;
+  button.edit-btn {
+    color: goldenrod;
+  }
+  button.delete-btn {
+    color: red;
+  }
+}
